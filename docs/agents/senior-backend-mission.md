@@ -1,3 +1,8 @@
+---
+title: Senior Backend Developer Mission Report
+date: 2026-08-09
+---
+
 # Senior Backend Developer Mission Report
 
 **Agent**: senior-backend  
