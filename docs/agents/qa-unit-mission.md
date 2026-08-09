@@ -1,7 +1,7 @@
 # QA Unit — Test Report
 
 **Agent**: qa-unit  
-**Generated**: 2026-08-09T19:26:11.735Z
+**Generated**: 2026-08-09T20:00:39.700Z
 
 ---
 
@@ -9,13 +9,13 @@
 
 {
   "type": "unit",
-  "framework": "jest",
+  "framework": "Jest",
   "total": 0,
   "passed": 0,
   "failed": 0,
   "skipped": 0,
   "status": "pass",
   "failures": [],
-  "agentId": "qa-agent-001",
+  "agentId": "qa-unit",
   "cases": []
 }
