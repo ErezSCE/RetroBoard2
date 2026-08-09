@@ -4,13 +4,11 @@
   "private": true,
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
-  "browser": {
-    "src": "./src"
-  },
+
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
-    "test": "jest",
+    "test": "jest --config packages/backend/jest.config.js",
     "cypress:open": "cypress open"
   },
   "dependencies": {
@@ -22,6 +20,7 @@
     "socket.io-client": "^4.7.2"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "typescript": "^5.2.2",
