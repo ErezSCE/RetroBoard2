@@ -8,9 +8,13 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "echo lint passed",
-    "test": "echo \"No tests\""
+    "test": "vitest"
   },
   "dependencies": {
+    "react-router-dom": "^6.14.0",
+    "socket.io-client": "^4.7.2",
+    "react-redux": "^8.1.2",
+    "@reduxjs/toolkit": "^1.9.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
