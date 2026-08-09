@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "lib": ["ES2022"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@backend/*": ["packages/backend/src/*"],
+      "@frontend/*": ["packages/frontend/src/*"]
+    }
+  },
+  "references": [
+    { "path": "./packages/backend" },
+    { "path": "./packages/frontend" }
+  ]
+}
