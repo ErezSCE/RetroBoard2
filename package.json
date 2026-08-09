@@ -1,13 +1,24 @@
 {
-  "private": true,
   "name": "retroboard2",
   "version": "0.1.0",
-  "workspaces": [
-    "packages/*"
-  ],
+  "main": "src/server.js",
+  "type": "module",
   "scripts": {
-    "build": "yarn workspaces run build",
-    "lint": "yarn workspaces run lint",
-    "test": "yarn workspaces run test"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --detectOpenHandles --forceExit"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "socket.io": "^4.7.2",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "mongodb-memory-server": "^9.9.2",
+    "nodemon": "^3.0.1"
   }
 }
